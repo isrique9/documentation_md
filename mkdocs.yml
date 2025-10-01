@@ -29,4 +29,10 @@ markdown_extensions:
 
 nav:
   - Inicio: index.md
-  - Teste: teste_menu.md
+  - Teste:
+      - CSS Adicional: teste_extra_css.md
+      - JS Adicional: teste_extra_js.md
+      - Links: teste_links.md
+      - Imagens: teste_img.md
+      - Sintax: teste_sintax.md
+      - Social Cards: teste_social_card.md
