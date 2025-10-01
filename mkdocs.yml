@@ -1,0 +1,32 @@
+site_name: Documentation MD
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - palette.toggle
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - scheme: slate
+      primary: deep purple
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.emoji
+
+nav:
+  - Inicio: index.md
+  - Teste: teste_menu.md
