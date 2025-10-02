@@ -1,25 +1,31 @@
 site_name: Documentation MD
 
 theme:
+  logo: images/image_logo.svg
+  favicon: images/favicon.png
   name: material
   language: pt-BR
   features:
     - palette.toggle
   palette:
     - scheme: default
-      primary: indigo
+      primary: custom
       accent: pink
       toggle:
         icon: material/weather-night
         name: Modo escuro
     - scheme: slate
-      primary: deep purple
+      primary: custom
       accent: lime
       toggle:
         icon: material/weather-sunny
         name: Modo claro
 
+extra_css:
+  - stylesheets/extra.css
+
 markdown_extensions:
+  - attr_list
   - admonition
   - codehilite
   - pymdownx.superfences
